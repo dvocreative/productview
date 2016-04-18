@@ -1,0 +1,19 @@
+{
+  "name": "productview",
+  "version": "1.0.0",
+  "description": "Zoomable, 360-degree product view plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvocreative/productview.git"
+  },
+  "author": "Dan O'Donnell <dan@dvoc.ca> (http://dvoc.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvocreative/productview/issues"
+  },
+  "homepage": "https://github.com/dvocreative/productview#readme"
+}

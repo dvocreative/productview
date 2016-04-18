@@ -1,0 +1,44 @@
+/* line 1, ../../src/scss/productview.scss */
+.productview-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+/* line 7, ../../src/scss/productview.scss */
+.productview-container .productView-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+/* line 16, ../../src/scss/productview.scss */
+.productview-container .productView-image.active {
+  opacity: 1;
+}
+
+/* line 23, ../../src/scss/productview.scss */
+.productview-zoom {
+  opacity: 0;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  z-index: 999;
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+}
+/* line 33, ../../src/scss/productview.scss */
+.productview-zoom.active {
+  opacity: 1;
+}
+/* line 36, ../../src/scss/productview.scss */
+.productview-zoom img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
